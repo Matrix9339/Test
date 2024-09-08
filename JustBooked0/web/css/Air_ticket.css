@@ -1,0 +1,125 @@
+
+.body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;    
+}
+
+.tb1 {
+    display: flex;
+    width: 100vw;
+    height: 450px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    position: relative;
+    /* border: 2px solid red; */
+}
+.tb1 img{
+    width: 100vw;
+    height: 68vh;
+}
+
+.bdift{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    z-index: 5;
+    top: 40%;
+    border-radius:10px;
+    padding: 2px 20px;
+    left: 7.3%;
+    background-color: rgba(0, 0, 0, 0.716);
+}
+.and{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    z-index: 5;
+    top: 48.5%;
+    padding: 0px 25px;
+    left: 25%;
+    background-color: rgba(0, 0, 0, 0.716);
+}
+.gef{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    z-index: 5;
+    top: 56.2%;
+    border-radius:10px;
+    padding: 2px 20px;
+    left: 18%;
+    background-color: rgba(0, 0, 0, 0.716);
+}
+.tb2{
+    top: 25px;
+    width: 70vw;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 15px;
+    padding: 14px;
+    background-color: rgba(255, 255, 255, 0.526);
+    border-radius: 24px;
+}
+.tb2:hover{
+    box-shadow: 8px 8px 15px 0px black;
+}
+
+.r1{
+    position: absolute;
+    display: flex; 
+    width: 50%;
+    top:20%;
+    left: 15%;
+    /* margin: auto; */
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+
+}
+.r1 input{
+    margin-left: 15px;
+}
+
+.r1p2{
+    position: absolute;
+    display: flex; 
+    width: 50%;
+    top:20%;
+    left: 55%;
+}
+.r2{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 35%;
+    left: 2%;
+}
+.r2 input{
+    height: 80%;
+    width: 9.5%;
+    margin: 0px 6px;
+    padding: 0px 2px;
+}
+.r3{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.r3 input{
+    margin-left: 15px;
+}
+
+.r4{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 72%;
+    left: 33%;
+}
+.r5{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 85%;
+    left: 45%;
+}

@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('img/lbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+

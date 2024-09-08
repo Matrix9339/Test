@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mail otp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/sendmail.css">
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                height: 100vh;
+                width: 100vw;
+                background-image: url('Img/lbg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="http://localhost:25570/JustBooked0/sendmail">
+                <div class="in">
+                    <table>
+                        <thead>
+                            <tr><th>SEND A MAIL</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>To: </td><td><input type="text" name="tbTo"/></td></tr>
+                            <tr><td>CC: </td><td><input type="text" name="tbCC"/></td></tr>
+                            <tr><td>BCC: </td><td><input type="text" name="tbBCC"/></td></tr>
+                            <tr><td>Subject: </td><td><input type="text" name="tbSubject"/></td></tr>
+                            <tr><td>Body: </td><td><textarea rows="10" cols="17" name="taBody"></textarea></td></tr>
+                            <tr><td><input type="submit" value="Send"/></td><td><input type="reset" value="Clear"></td></tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+                </div>
+            </form>
+    </body>
+</html>

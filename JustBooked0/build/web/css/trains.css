@@ -1,0 +1,105 @@
+
+.body{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.body img{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+body h1{
+    display: flex;
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    color: black;
+}
+
+.body div{
+    background-color: black;
+    width: 70%;
+    height: 20%;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    padding: 50px 50px;
+    opacity: .55;
+    align-self: center;
+}
+
+body .option-tables{
+    display: flex;
+    position: absolute;
+    color: white;
+    justify-content: space-between;
+    top: 48%;
+    left: 20%;
+    padding: 10px;
+    margin: 10px;
+    z-index: 1000;
+    height: 15%;
+}
+
+body .option-tables input{
+    height: 20%;
+    margin: 0px 10px;
+}
+
+body .check{
+    display: flex;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 65%;
+    left: 50%;
+    padding: 10px;
+    margin: 10px;
+    z-index: 1000;
+    background-color: rgb(48, 48, 223);
+    height: 4%;
+}
+
+body .check a{
+    text-decoration: none;
+    color: white;
+}
+
+body .sub{
+    display: flex;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 65%;
+    left: 42%;
+    padding: 10px;
+    margin: 10px;
+    z-index: 1000;
+    background-color: white;
+    height: 4%;
+}
+body .sub button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.r2{
+    /* border: 2px solid red; */
+    position: absolute;
+    top:58%;
+    left: 35%;
+    color: white;
+}
+.r2 input{
+    height: 80%;
+    width: 9.5%;
+    margin: 0px 6px;
+    padding: 0px 2px;
+}

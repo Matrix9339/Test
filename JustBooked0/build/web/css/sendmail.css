@@ -1,0 +1,10 @@
+.in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgba(52, 50, 50, 0.675);
+    border-radius: 50px;
+    margin-top: 10%;
+}
+
